@@ -177,12 +177,14 @@ As part of the PANACEA AI project, my contributions included:
 The primary objective of PANACEA AI is to support healthcare professionals by providing accurate, explainable, and timely risk assessments for ICU patients, enabling better decision-making and improving patient outcomes.
 ---
 ## Team
+
 Sreansh Verma
 Arunendra Bahadur Singh 
 Mehreen Dhillon
 Amya Rastogi
 ---
 ## Future Improvements
+
 Deploy as a cloud-based service (AWS / GCP)
 Improve model performance and validation
 Add real-time ICU monitoring integration
