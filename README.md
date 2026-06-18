@@ -1,8 +1,6 @@
-# PANACEA 🏥
-### Predictive Analytics for Clinical Early-warning and Assessment
+# PANACEA AI
 
-A clinical decision support system that helps doctors identify high-risk ICU patients early using real-time vitals data and machine learning.
-
+AI-Powered Clinical Decision Support System for ICU Risk Prediction
 ---
 
 ## What it does
@@ -17,17 +15,27 @@ PANACEA takes patient vitals from the MIMIC-III ICU dataset, runs them through a
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Backend API | FastAPI |
-| ML Model | XGBoost |
-| Explainability | SHAP |
-| Data Processing | Pandas, NumPy |
-| Frontend | HTML, CSS, JavaScript |
-| Dataset | MIMIC-III (PhysioNet) |
+* Python
+* FastAPI
+* XGBoost
+* Pandas
+* NumPy
+* Scikit-learn
+* SHAP
+* HTML/CSS/JavaScript
+
 
 ---
+## Features
 
+* ICU patient risk prediction using machine learning
+* Data preprocessing and feature engineering pipeline
+* Interactive dashboard for patient monitoring
+* Explainable AI insights using SHAP
+* FastAPI-powered backend
+* Modular and scalable architecture
+
+---
 ## Project Structure
 
 ```
@@ -152,4 +160,31 @@ This project uses [MIMIC-III](https://physionet.org/content/mimiciii/1.4/), a pu
 - [ ] Dockerize for deployment
 - [ ] Add authentication for clinical use
 
+---
+
+## My Contributions
+
+As part of the PANACEA AI project, my contributions included:
+
+*Designed a patient risk assessment methodology using clinical parameters extracted from the MIMIC-III dataset.
+*Developed a scoring framework to categorize patients into different risk levels based on predicted outcomes and vital indicators.
+*Analyzed the impact of individual clinical features on overall patient risk.
+*Evaluated risk thresholds and classification performance to improve interpretability for healthcare professionals.
+*Assisted in validating the scoring logic against model predictions and patient records.
+---
+## Project Goal
+
+The primary objective of PANACEA AI is to support healthcare professionals by providing accurate, explainable, and timely risk assessments for ICU patients, enabling better decision-making and improving patient outcomes.
+---
+## Team
+Sreansh Verma
+Arunendra Bahadur Singh 
+Mehreen Dhillon
+Amya Rastogi
+---
+## Future Improvements
+Deploy as a cloud-based service (AWS / GCP)
+Improve model performance and validation
+Add real-time ICU monitoring integration
+Enhance UI/UX of dashboard
 ---
